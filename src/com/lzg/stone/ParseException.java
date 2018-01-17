@@ -2,7 +2,7 @@ package com.lzg.stone;
 
 import java.io.IOException;
 
-public class ParseException extends Exception {
+public class ParseException extends RuntimeException {
     public ParseException(Token t) {
         this("",t);
     }
